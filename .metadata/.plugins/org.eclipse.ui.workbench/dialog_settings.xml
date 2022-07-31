@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="com.yattasolutions.umllab.examples.NewShopExampleWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.emf.ecore.Wizard.category.ID"/>
+			<item value="com.objectaid.uml.new"/>
+			<item value="org.eclipse.ui.Examples"/>
+			<item value="org.eclipse.ui.Examples/com.yattasolutions.umllab.Examples"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\VINICIO BORJA\Downloads\BorjaVinicio_Evaluacion1\BorjaVinicio_EvaluacionU1.zip"/>
+			<item value="C:\Users\VINICIO BORJA\Downloads\DeberHoy.zip"/>
+			<item value="C:\Users\VINICIO BORJA\Desktop\BorjaVinicio\6to Semestre\MODELADO AVAN DE BASE DE DATOS\borja_vinicio.zip"/>
+			<item value="C:\Users\VINICIO BORJA\Downloads\BorjaVinicio_POO\BorjaVinicio_POO.zip"/>
+			<item value="C:\Users\VINICIO BORJA\Downloads\Eclis\Borja.zip"/>
+		</list>
+	</section>
+	<section name="EditorSelectionDialog">
+		<item key="EditorSelectionDialog.STORE_ID_FILE_EXTENSION" value=".java"/>
+		<item key="EditorSelectionDialog.STORE_ID_INTERNAL_EXTERNAL" value="false"/>
+		<item key="EditorSelectionDialog.STORE_ID_DESCR" value="com.objectaid.uml.ClassDiagramEditor"/>
+	</section>
+	<section name="ZipFileImportWizard">
+	</section>
+</section>
