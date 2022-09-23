@@ -47,3 +47,7 @@ private Connection connTransaccional;
 ```
 
 **Como tarea implementar el trazacion en TestConexionPrueba.java**
+
+## Buenas practicas y patrones de deseño
+![image](https://user-images.githubusercontent.com/99310007/192063823-5fc9d6d8-9303-42ee-abd7-655819f86a18.png)
+
