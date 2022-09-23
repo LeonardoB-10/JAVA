@@ -33,6 +33,7 @@ El bajo acoplamiento es un principio de diseño que dice que los componentes de 
 
 **Alta cohesión**
 El principio de alta cohesión dice que los componentes de un sistema deben estar lo mas cohesionados posible.
+image.png
 
 **JAVA Importante**
 Se tiene que acostumbrar a trabar con objetos y no por valor ya que los objetos se pasan por referencia y los valores por valor.
@@ -50,4 +51,5 @@ private Connection connTransaccional;
 
 ## Buenas practicas y patrones de deseño
 ![image](https://user-images.githubusercontent.com/99310007/192063823-5fc9d6d8-9303-42ee-abd7-655819f86a18.png)
+
 
