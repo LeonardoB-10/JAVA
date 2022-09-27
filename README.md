@@ -109,7 +109,26 @@ Link utilizados:
  **Ciclo de vida servelt** <br>
  ![ciclovida](https://user-images.githubusercontent.com/99310007/192622886-60a72404-6902-4624-a789-d7cb438ca779.png)
  
- **Capa Web** <br>
- ![servelts](https://user-images.githubusercontent.com/99310007/192622969-dbcb1452-32a8-4874-b67c-788053c181d0.png)
-
+**Codigo de estado**
+```
+     String usuarioOk = "Juan";
+        String passwordOk = "123";
+        
+        String usuario = request.getParameter("usuario");
+        String password = request.getParameter("password");
+        
+        PrintWriter out = response.getWriter();
+        
+        if(usuarioOk.equals(usuario) && passwordOk.equals(password)){
+            out.print("<h1>");
+            out.print("Datos correctos");
+            out.print("<br>Usuario:" + usuario);
+            out.print("<br>Password:" + password);
+            out.print("</h1>");
+        }
+        else{
+            response.sendError(response.SC_UNAUTHORIZED, "Las credenciales son incorrectas");
+        }
+        out.close();
+```
 
