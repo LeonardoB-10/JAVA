@@ -105,3 +105,11 @@ getHeaders(String name) -> Obtiene todos los valores del cabecero http <br>
 Link utilizados:
  https://start.spring.io/ -> Para crear el proyecto de springboot
  https://maven.apache.org/download.cgi -> Para descargar maven
+ 
+ **Ciclo de vida servelt** <br>
+ ![ciclovida](https://user-images.githubusercontent.com/99310007/192622886-60a72404-6902-4624-a789-d7cb438ca779.png)
+ 
+ **Capa Web** <br>
+ ![servelts](https://user-images.githubusercontent.com/99310007/192622969-dbcb1452-32a8-4874-b67c-788053c181d0.png)
+
+
