@@ -24,24 +24,24 @@ DAO es un patron de diseño que permite separar la logica de negocio de la logic
 Sirve para hacer las consultas a la base de datos y poder utilizarlas en el programa principal.
 
 **Patron de diseño DAO**
-El patron de diseño DAO es un patron de diseño que permite separar la logica de negocio de la logica de acceso a datos.
+El patron de diseño DAO es un patron de diseño que permite separar la logica de negocio de la logica de acceso a datos. <br>
 
 ## Buenas practicas de programacion
 
-**Bajo acoplamiento**
+**Bajo acoplamiento** <br>
 El bajo acoplamiento es un principio de diseño que dice que los componentes de un sistema deben estar lo mas desacoplados posible.
 
-**Alta cohesión**
-El principio de alta cohesión dice que los componentes de un sistema deben estar lo mas cohesionados posible.
+**Alta cohesión**<br>
+El principio de alta cohesión dice que los componentes de un sistema deben estar lo mas cohesionados posible. <br>
 
-**JAVA Importante**
-Se tiene que acostumbrar a trabar con objetos y no por valor ya que los objetos se pasan por referencia y los valores por valor.
+**JAVA Importante** <br>
+Se tiene que acostumbrar a trabar con objetos y no por valor ya que los objetos se pasan por referencia y los valores por valor. <br>
 
 ## Conexion a la base de datos
 
 Una transacción es un conjunto de operaciones que se ejecutan como una sola unidad. Si una de las operaciones falla, todas las operaciones deben fallar. Si todas las operaciones se completan correctamente, todas las operaciones deben completarse correctamente.
 
-**La practica esta realizada en el proyecto INTRODUCCIONJDBC3**
+**La practica esta realizada en el proyecto INTRODUCCIONJDBC3** <br>
 
 ```
 private Connection connTransaccional;
@@ -49,7 +49,7 @@ private Connection connTransaccional;
 
 ## **Revisar como funcina una itnerface en JAVA**
 
-**Como tarea implementar el trazacion en TestConexionPrueba.java**
+**Como tarea implementar el trazacion en TestConexionPrueba.java** <br>
 
 ## Buenas practicas y patrones de deseño
 
@@ -57,8 +57,8 @@ private Connection connTransaccional;
 
 ## POOL DE CONEXIONES JDBC
 
-Sirve para tener un conjunto de conexiones a la base de datos y que se puedan reutilizar.
-Introdcuccion a JDBC 5 POOL DE CONEXIONES JDBC
+Sirve para tener un conjunto de conexiones a la base de datos y que se puedan reutilizar.<br>
+Introdcuccion a JDBC 5 POOL DE CONEXIONES JDBC<br>
 
 ```
 <dependency>
@@ -94,10 +94,10 @@ public class ServletHolaMundo extends HttpServlet {
     }
 }
 ```
-**Cabeceros http**
-getHeaderNames() -> Obtiene los nombres de los cabeceros http
-getHeader(String name) -> Obtiene el valor del cabecero http
-getHeaders(String name) -> Obtiene todos los valores del cabecero http
+**Cabeceros http**<br>
+getHeaderNames() -> Obtiene los nombres de los cabeceros http <br>
+getHeader(String name) -> Obtiene el valor del cabecero http <br>
+getHeaders(String name) -> Obtiene todos los valores del cabecero http <br>
 
 
 ## Curso de Java Fullstack Completo (springboot, hibernate, JWT, API Rest)
