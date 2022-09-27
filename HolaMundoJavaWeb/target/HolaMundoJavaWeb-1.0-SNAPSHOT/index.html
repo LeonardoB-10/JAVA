@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="recursos/estilos.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+        <script src="recursos/scripts.js"></script>
+
+    <form action="/HolaMundoJavaWeb/Servlet2" method="post" >
+        
+        <table width="300" id="ensasis-columna">
+            <tr>
+                <td>Nombre:</td>
+                <td><input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" required></td>
+            </tr>
+            <tr>
+                <td>Apellido:</td>
+                <td><input type="text" name="apellido" id="apellido" placeholder="Escribe tu apellido" required></td>
+            </tr>
+            <tr>
+                <td>Contrasena:</td>
+                <td><input type="password" name="contrasena" id="contrasena" placeholder="Escribe tu contrasena" required></td>
+            </tr>
+            <tr>
+                <td>Edad:</td>
+                <td><input type="number" name="edad" id="edad" placeholder="Escribe tu edad" required></td>
+            </tr>
+            <tr>
+                <td>Correo:</td>
+                <td><input type="email" name="correo" id="correo" placeholder="Escribe tu correo" required></td>
+            </tr>
+            <!-- Sexo -->
+            <tr>
+                <td>Sexo:</td>
+                <td>
+                    <input type="radio" name="sexo" id="sexo" value="M" required>Masculino
+                    <input type="radio" name="sexo" id="sexo" value="F" required>Femenino
+                </td>
+            </tr>
+            <!-- select  pais-->
+            <tr>
+                <td>Pais:</td>
+                <td>
+                    <select name="pais" id="pais" required>
+                        <option value="MX">Mexico</option>
+                        <option value="CO">Colombia</option>
+                        <option value="AR">Argentina</option>
+                        <option value="PE">Peru</option>
+                    </select>
+                </td>
+            </tr>
+            <!-- select  cobobox tecnologias -->
+            <tr>
+                <td>Tecnologias:</td>
+                <td>
+                    <input type="checkbox" name="tecnologia" id="tecnologia" value="Java" >Java
+                    <input type="checkbox" name="tecnologia" id="tecnologia" value="PHP" >PHP
+                    <input type="checkbox" name="tecnologia" id="tecnologia" value="Python" >Python
+                </td>
+
+            <!-- textarea-->
+            <tr>
+                <td>Descripcion:</td>
+                <td>
+                    <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Escribe tu descripcion" required></textarea>
+                </td>
+            </tr>
+            <!-- submit-->
+            <tr>
+                <td colspan="2">
+                    <input type="reset" value="Limpiar">
+                </td>
+                <td colspan="2">
+                    <input type="submit" value="Enviar">
+                </td>
+            </tr>
+        </table>
+        
+    </form>
+
+</body>
+</html>
