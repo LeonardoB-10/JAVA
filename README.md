@@ -79,3 +79,29 @@ GlassFish 5.0.1 - Full Platform
 Link de descargar Glassfish: https://projects.eclipse.org/projects/ee4j.glassfish/downloads
 
 C:\AppServer\glassfish
+
+
+**Estructura de un servlet**
+```
+@WebServlet("/Servlet")
+public class ServletHolaMundo extends HttpServlet {
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        //super.doGet(req, resp);
+        PrintWriter out = resp.getWriter();
+        out.print("Hola mundo desde un servlet");
+        out.close();
+    }
+}
+```
+**Cabeceros http**
+getHeaderNames() -> Obtiene los nombres de los cabeceros http
+getHeader(String name) -> Obtiene el valor del cabecero http
+getHeaders(String name) -> Obtiene todos los valores del cabecero http
+
+
+## Curso de Java Fullstack Completo (springboot, hibernate, JWT, API Rest)
+
+Link utilizados:
+ https://start.spring.io/ -> Para crear el proyecto de springboot
+ https://maven.apache.org/download.cgi -> Para descargar maven
