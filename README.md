@@ -172,3 +172,10 @@ Link utilizados:
         out.close();
 ```
 
+## Pasos de no olvidar 
+Ingrese el jdk dentro de la carpeta del servidor<br>
+![image](https://user-images.githubusercontent.com/99310007/193189989-976ebb0e-49c2-4be5-8d19-22d872dffe3f.png)
+
+
+
+
