@@ -99,6 +99,46 @@ getHeaderNames() -> Obtiene los nombres de los cabeceros http <br>
 getHeader(String name) -> Obtiene el valor del cabecero http <br>
 getHeaders(String name) -> Obtiene todos los valores del cabecero http <br>
 
+## Manejo sesiones en servlets
+
+**Principales metodos de la clase HttpSession** <br>
+getId() -> Obtiene el id de la sesion <br>
+getCreationTime() -> Obtiene la fecha de creacion de la sesion <br>
+getLastAccessedTime() -> Obtiene la fecha de la ultima vez que se accedio a la sesion <br>
+setMaxInactiveInterval(int interval) -> Establece el tiempo maximo de inactividad de la sesion <br>
+getAttribute(String name) -> Obtiene el valor de un atributo de la sesion <br>
+getAttributeNames() -> Obtiene los nombres de los atributos de la sesion <br>
+setAttribute(String name, Object value) -> Establece un atributo de la sesion <br>
+removeAttribute(String name) -> Elimina un atributo de la sesion <br>
+invalidate() -> Invalida la sesion <br>
+
+**La Session por default durara 30 minutos**<br>
+
+## JSP
+**jsp** es un lenguaje de marcado que se ejecuta en el servidor y que se encarga de generar la respuesta a una peticion de un cliente.<br>
+Al igual que los servlets, los jsp's son clases que se ejecutan en el servidor y que se encargan de generar la respuesta a una peticion de un cliente.<br>
+Un jsp es una pagina web que contiene codigo java y codigo html.<br>
+Al ejuutar un jsp, el servidor web lo convierte a una clase servlet y la ejecuta.<br>
+
+**JSP es un servelt del lado del servidor**<br>
+
+**Directivas de JSP**<br>
+Las directivas de JSP son instrucciones que se agregan al inicio de un jsp y que le indican al servidor web como procesar el jsp.<br>
+Sintaxis de las directivas de JSP:<br>
+<%@ directive-atribute="value" %><br>
+**page**<br>
+La directiva page se utiliza para especificar atributos de la pagina.<br>
+
+
+
+**JSTL**<br>
+Es una libreria de etiquetas que nos permite simplificar el desarrollo de aplicaciones web.<br>
+Sintaxis de las etiquetas JSTL<br>
+```<c:etiqueta>contenido</c:etiqueta>```<br>
+```<c:etiqueta atributo="valor">contenido</c:etiqueta>```<br>
+```<c:etiqueta atributo="valor"/>```<br>
+
+
 
 ## Curso de Java Fullstack Completo (springboot, hibernate, JWT, API Rest)
 
