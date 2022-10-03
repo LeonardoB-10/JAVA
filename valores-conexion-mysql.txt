@@ -1,0 +1,1 @@
+jdbc:mysql://localhost:3306/control_clientes?zeroDateTimeBehavior=convertToNull&useTimezone=true&serverTimezone=UTC

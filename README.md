@@ -129,6 +129,10 @@ Sintaxis de las directivas de JSP:<br>
 **page**<br>
 La directiva page se utiliza para especificar atributos de la pagina.<br>
 
+## JSF
+**JSF** es un framework de java que se encarga de generar la respuesta a una peticion de un cliente.<br>
+
+
 
 
 **JSTL**<br>
@@ -138,6 +142,33 @@ Sintaxis de las etiquetas JSTL<br>
 ```<c:etiqueta atributo="valor">contenido</c:etiqueta>```<br>
 ```<c:etiqueta atributo="valor"/>```<br>
 
+
+
+## Proyecto Control Cliente JSP DAO
+**  Despendencias Maven**<br>
+```
+     <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.23</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-dbcp2</artifactId>
+            <version>2.8.0</version>
+        </dependency>
+```
+
+
+**EJB**<br>
+Es un componente de software que se encarga de encapsular la logica de negocio de una aplicacion.<br>
+**Caracteristicas de un EJB**<br>
+- Es un componente de software.<br>
+- Se encarga de encapsular la logica de negocio de una aplicacion.<br>
+- Es un POJO.<br>
+- Es un bean.<br>
+- Es un componente de software que se ejecuta en el servidor.<br>
 
 
 ## Curso de Java Fullstack Completo (springboot, hibernate, JWT, API Rest)
